@@ -1,6 +1,6 @@
 <h3>Configurando e Iniciando a aplicação</h3>
 Para iniciar a aplicação basta usar o comando npm start.<br>
-O programa ira rodar na porta 3000, isso pode ser configurado no arquivo serve.js.<br>
+O programa ira rodar na porta 3000, isso pode ser configurado no arquivo server.js na pasta raiz do projeto.<br>
 Porem antes da aplicação ser iniciada deve-se configurar a conexão com o banco de dados no arquivo db.js na pasta /src/db.<br>
 Pode ser usada o dockerfile localizado na pasta /src/db para criar a imagem de um banco de dados mongodb para realização de testes na aplicação.<br>
 
