@@ -1,0 +1,7 @@
+FROM mongo
+
+WORKDIR /usr/app/db
+
+ENV MONGO_INITDB_DATABASE = "planets"
+
+EXPOSE 27017
